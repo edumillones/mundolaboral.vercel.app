@@ -16,7 +16,7 @@ export const jobOffers: JobOffer[] = [
     id: 3737,
     title: "Niñera Virtual con Enfoque en Apoyo Educativo",
     description:
-      "Oportunidad para estudiantes de Ingeniería de Sistemas en Perú para trabajar remotamente con niños en Canadá y Estados Unidos.",
+      "Oportunidad para estudiantes en Perú para trabajar remotamente con niños en Canadá y Estados Unidos.",
     payout: "$10 USD por hora",
     link: "/jobs/3737",
     location: "Remoto, Perú",

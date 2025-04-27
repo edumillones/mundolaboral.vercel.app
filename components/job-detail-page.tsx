@@ -541,7 +541,7 @@ export default function JobDetailPage({ job }: JobDetailPageProps) {
                           className={`w-full p-3 border rounded-md focus:ring-2 focus:ring-primary focus:border-primary ${
                             errors.coverLetter ? "border-red-500" : "border-gray-300"
                           }`}
-                          placeholder="Explica tu interés en esta posición y cómo tus habilidades en ingeniería de sistemas podrían ser beneficiosas para el rol de niñera virtual..."
+                          placeholder="Explica tu interés en esta posición y cómo tus habilidades podrían ser beneficiosas para el rol de niñera virtual..."
                         ></textarea>
                         {errors.coverLetter && <p className="mt-1 text-sm text-red-600">{errors.coverLetter}</p>}
                       </div>
