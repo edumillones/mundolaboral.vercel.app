@@ -279,80 +279,49 @@ export default function JobDetailPage({ job }: JobDetailPageProps) {
                     <div className="p-6 md:p-8">
                       <h2 className="text-xl font-bold mb-4">Descripción del Puesto</h2>
                       <div className="prose max-w-none">
-                        <p className="mb-4">
-                          ¿Eres una estudiante de Ingeniería de Sistemas en Perú con pasión por los niños y habilidades
-                          tecnológicas? ¡Esta es tu oportunidad para trabajar remotamente y ganar en dólares!
-                        </p>
+<p className="mb-4">
+  ¿Eres una chica estudiante de colegio o universidad en Perú, tienes 16 años o más, y te encanta interactuar con niños? ¡Esta es tu oportunidad para trabajar remotamente y ganar en dólares mientras desarrollas tus habilidades!
+</p>
 
-                        <h3 className="text-lg font-semibold mt-6 mb-3">Perfil</h3>
-                        <p className="mb-4">
-                          Buscamos una joven responsable, creativa y proactiva, estudiante activa de Ingeniería de
-                          Sistemas (a partir del 2do ciclo), residente en Perú, para desempeñarse como Niñera Virtual y
-                          brindar apoyo educativo y recreativo a niños en Canadá y Estados Unidos.
-                        </p>
+<h3 className="text-lg font-semibold mt-6 mb-3">Perfil</h3>
+<p className="mb-4">
+  Buscamos jóvenes responsables, creativas y proactivas, estudiantes activas de colegio o universidad (mínimo 16 años cumplidos), residentes en Perú, para desempeñarse como Niñera Virtual y brindar apoyo educativo y recreativo a niños en Canadá y Estados Unidos.
+</p>
 
-                        <h3 className="text-lg font-semibold mt-6 mb-3">Requisitos</h3>
-                        <ul className="list-disc pl-5 space-y-2 mb-4">
-                          <li>
-                            Ser estudiante activa de la carrera de Ingeniería de Sistemas (a partir del 2do ciclo).
-                          </li>
-                          <li>Interés genuino en el cuidado y la interacción con niños.</li>
-                          <li>
-                            Habilidades básicas de comunicación y paciencia para interactuar con niños de diferentes
-                            edades.
-                          </li>
-                          <li>
-                            Conocimientos básicos en el uso de herramientas digitales y plataformas de comunicación
-                            online (videollamadas, juegos interactivos, etc.).
-                          </li>
-                          <li>Creatividad para proponer actividades lúdicas y educativas online.</li>
-                          <li>Responsabilidad y compromiso con los horarios acordados.</li>
-                          <li>Buen nivel de inglés (oral y escrito) para comunicarse con niños y padres (deseable).</li>
-                          <li>Residencia actual en Perú.</li>
-                        </ul>
+<h3 className="text-lg font-semibold mt-6 mb-3">Requisitos</h3>
+<ul className="list-disc pl-5 space-y-2 mb-4">
+  <li>Ser estudiante activa de colegio o universidad.</li>
+  <li>Tener mínimo 16 años cumplidos.</li>
+  <li>Gusto genuino por trabajar e interactuar con niños.</li>
+  <li>Habilidades básicas de comunicación y paciencia para interactuar con niños de diferentes edades.</li>
+  <li>Conocimientos básicos en el uso de herramientas digitales y plataformas de comunicación online (videollamadas, juegos interactivos, etc.).</li>
+  <li>Creatividad para proponer actividades lúdicas y educativas online.</li>
+  <li>Responsabilidad y compromiso con los horarios acordados.</li>
+  <li>Buen nivel de inglés (oral y escrito) es un plus, ¡pero no indispensable!</li>
+  <li>Residencia actual en Perú.</li>
+</ul>
 
-                        <h3 className="text-lg font-semibold mt-6 mb-3">Responsabilidades</h3>
-                        <ul className="list-disc pl-5 space-y-2 mb-4">
-                          <li>
-                            Organizar y facilitar actividades virtuales interactivas y divertidas para niños (juegos
-                            online, manualidades virtuales, cuentacuentos, etc.).
-                          </li>
-                          <li>
-                            Brindar apoyo educativo básico en áreas como lectura, escritura o matemáticas, utilizando
-                            recursos digitales.
-                          </li>
-                          <li>Ayudar con tareas escolares sencillas y fomentar hábitos de estudio.</li>
-                          <li>Supervisar y asegurar la seguridad de los niños durante las interacciones virtuales.</li>
-                          <li>
-                            Comunicarse de manera clara y respetuosa con los niños y, ocasionalmente, con los padres
-                            sobre las actividades realizadas.
-                          </li>
-                          <li>Adaptarse a las necesidades e intereses individuales de cada niño.</li>
-                          <li>
-                            Cumplir con los horarios de interacción virtual acordados, que pueden ser rotativos para
-                            cubrir diferentes zonas horarias. Se requiere flexibilidad horaria.
-                          </li>
-                        </ul>
+<h3 className="text-lg font-semibold mt-6 mb-3">Responsabilidades</h3>
+<ul className="list-disc pl-5 space-y-2 mb-4">
+  <li>Organizar y facilitar actividades virtuales interactivas y divertidas para niños (juegos online, manualidades virtuales, cuentacuentos, etc.).</li>
+  <li>Brindar apoyo educativo básico en áreas como lectura, escritura o matemáticas usando recursos digitales.</li>
+  <li>Ayudar con tareas escolares sencillas y fomentar hábitos de estudio.</li>
+  <li>Supervisar y asegurar la seguridad de los niños durante las interacciones virtuales.</li>
+  <li>Comunicarte de manera clara y respetuosa con los niños y sus padres sobre las actividades realizadas.</li>
+  <li>Adaptarte a las necesidades e intereses de cada niño.</li>
+  <li>Cumplir con los horarios acordados, con flexibilidad para atender diferentes zonas horarias.</li>
+</ul>
 
-                        <h3 className="text-lg font-semibold mt-6 mb-3">Condiciones</h3>
-                        <ul className="list-disc pl-5 space-y-2 mb-4">
-                          <li>
-                            <strong>Trabajo Remoto:</strong> Desde tu hogar en Perú.
-                          </li>
-                          <li>
-                            <strong>Salario:</strong> $10 dólares estadounidenses por hora.
-                          </li>
-                          <li>
-                            <strong>Horario:</strong> Rotativo, con disponibilidad para trabajar en diferentes franjas
-                            horarias para cubrir las necesidades de familias en Canadá y Estados Unidos. Se requiere
-                            flexibilidad horaria.
-                          </li>
-                        </ul>
+<h3 className="text-lg font-semibold mt-6 mb-3">Condiciones</h3>
+<ul className="list-disc pl-5 space-y-2 mb-4">
+  <li><strong>Trabajo Remoto:</strong> Desde tu hogar en Perú.</li>
+  <li><strong>Salario:</strong> $10 dólares estadounidenses por hora.</li>
+  <li><strong>Horario:</strong> Rotativo, adaptado a las necesidades de familias en Canadá y Estados Unidos. Flexibilidad horaria requerida.</li>
+</ul>
 
-                        <p className="mt-6">
-                          ¿Te emociona la idea de combinar tus habilidades tecnológicas con el cuidado de niños y ganar
-                          experiencia internacional? ¡Postula ahora!
-                        </p>
+<p className="mt-6">
+  ¿Te emociona la idea de aprender, ganar experiencia internacional y contribuir de manera divertida? ¡Postula ahora y forma parte de esta experiencia única!
+</p>
                       </div>
                     </div>
                   </div>
