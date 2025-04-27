@@ -548,7 +548,7 @@ export default function JobDetailPage({ job }: JobDetailPageProps) {
 
                       <div className="mb-6">
                         <label htmlFor="resumeFile" className="block text-sm font-medium text-gray-700 mb-1">
-                          Curriculum Vitae (PDF) *
+                          Curriculum Vitae (PDF) * (No obligatorio)
                         </label>
                         <div
                           className={`border-2 border-dashed rounded-md p-6 text-center ${
