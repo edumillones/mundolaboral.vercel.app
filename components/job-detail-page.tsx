@@ -113,7 +113,7 @@ export default function JobDetailPage({ job }: JobDetailPageProps) {
     if (!formData.cycle.trim()) newErrors.cycle = "El ciclo de estudios es requerido"
     if (!formData.englishLevel) newErrors.englishLevel = "El nivel de inglés es requerido"
     if (!formData.coverLetter.trim()) newErrors.coverLetter = "La carta de presentación es requerida"
-    if (!formData.resumeFile) newErrors.resumeFile = "El CV es requerido"
+    //if (!formData.resumeFile) newErrors.resumeFile = "El CV es requerido"
     if (!formData.termsAccepted) newErrors.termsAccepted = "Debes aceptar los términos y condiciones"
 
     if (formData.email && !/\S+@\S+\.\S+/.test(formData.email)) {
@@ -441,7 +441,7 @@ export default function JobDetailPage({ job }: JobDetailPageProps) {
 
                         <div>
                           <label htmlFor="university" className="block text-sm font-medium text-gray-700 mb-1">
-                            Universidad *
+                            Universidad / Colegio / Instituto*
                           </label>
                           <input
                             type="text"
@@ -471,15 +471,17 @@ export default function JobDetailPage({ job }: JobDetailPageProps) {
                             }`}
                           >
                             <option value="">Selecciona tu ciclo</option>
-                            <option value="2">2do Ciclo</option>
-                            <option value="3">3er Ciclo</option>
-                            <option value="4">4to Ciclo</option>
-                            <option value="5">5to Ciclo</option>
-                            <option value="6">6to Ciclo</option>
-                            <option value="7">7mo Ciclo</option>
-                            <option value="8">8vo Ciclo</option>
-                            <option value="9">9no Ciclo</option>
-                            <option value="10">10mo Ciclo</option>
+                            <option value="2">Secundaria / Colegio</option>
+                            <option value="3">2do Ciclo</option>
+                            <option value="4">3er Ciclo</option>
+                            <option value="5">4to Ciclo</option>
+                            <option value="6">5to Ciclo</option>
+                            <option value="7">6to Ciclo</option>
+                            <option value="8">7mo Ciclo</option>
+                            <option value="9">8vo Ciclo</option>
+                            <option value="10">9no Ciclo</option>
+                            <option value="11">10mo Ciclo</option>                            
+
                           </select>
                           {errors.cycle && <p className="mt-1 text-sm text-red-600">{errors.cycle}</p>}
                         </div>
